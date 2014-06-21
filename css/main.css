@@ -1,0 +1,68 @@
+body {
+	background: #BDBDBD;
+}
+
+#yWeatherWidget {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000;
+	background: #FFF;
+	width: 310px;
+	height: 160px;
+	margin: -85px 0 0 -155px;
+	padding: 10px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	
+	border: 1px solid #585858;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;	
+	
+	-webkit-box-shadow: 6px 6px 5px 0px rgba(77,77,77,0.7);
+	-moz-box-shadow: 6px 6px 5px 0px rgba(77,77,77,0.7);
+	box-shadow: 6px 6px 5px 0px rgba(77,77,77,0.7);
+}
+#yWeatherWidget [data-name="conditions"] {
+	margin-top: -5px;
+	display: none;
+}
+#yWeatherWidget [data-name="conditions"] > figcaption {
+	font-size: 11px;
+	font-weight: 700;
+	margin-top: -5px;
+}
+#yWeatherWidget ul[data-name="forecast"] {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+#yWeatherWidget ul[data-name="forecast"] li {
+	margin: 0;
+	padding: 8px 0 0 0;
+	width: 18.5%;
+	height: 40px;
+	display: inline-block;
+	border-left: 1px solid #ccc;
+	font-size: 12px;
+	text-align: center;
+}
+#yWeatherWidget ul[data-name="forecast"] li > small {
+	font-size: 11px;
+}
+#yWeatherWidget ul[data-name="forecast"] li:first-of-type {
+	border-left: none;
+}
+#yWeatherWidget [data-name="location"] {
+	margin-bottom: 8px;
+	font-size: 20px;
+	font-weight: 600;
+}
+#yWeatherWidget [data-name="temperature"] {
+	float: left;
+	margin: 0 15px -5px 0;
+	font-size: 68px;
+	font-weight: 600;
+}
+
