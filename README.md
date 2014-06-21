@@ -7,7 +7,7 @@ TODO:
 
 * Location detection
 * Loading Spinner
-* API Data Error handing
+* API Data error handing
 
 
-[http://codepen.io/jimfrenette/pen/sDIny](CodePen)
+http://codepen.io/jimfrenette/pen/sDIny
