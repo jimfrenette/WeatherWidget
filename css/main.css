@@ -24,13 +24,13 @@ body {
 	box-shadow: 6px 6px 5px 0px rgba(77,77,77,0.7);
 }
 #yWeatherWidget [data-name="conditions"] {
-	margin-top: -5px;
+	margin-top: -2px;
 	display: none;
 }
 #yWeatherWidget [data-name="conditions"] > figcaption {
 	font-size: 11px;
 	font-weight: 700;
-	margin-top: -5px;
+	margin-top: -2px;
 }
 #yWeatherWidget ul[data-name="forecast"] {
 	width: 100%;
